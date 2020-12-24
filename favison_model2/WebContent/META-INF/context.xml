@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<!-- 로그인과 관련된 정보 -->
+	<Resource 
+		name="jdbc/jspdb"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver"
+		url = "jdbc:mysql://localhost:3306/myjspdb?useUnicode=true&amp;characterEncoding=utf8&amp;allowPublicKeyRetrieval=true&amp;useSSL=false&amp;serverTimezone=Asia/Seoul"
+		username="myjspid"
+		password="myjsppass"
+	/>
+	<!-- name은 key값이고 type은 value name 값으로 key값을 찾아줘야 한다/ auth는 authorization줄임말  -->
+</Context>
